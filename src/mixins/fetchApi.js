@@ -12,11 +12,8 @@ export default {
             fetch(`https://api.npoint.io/f967d13cfbb8c7e661d2${url}`)
                 .then(r => r.json())
                 .then(r => {
-                    setTimeout(() => {
-                        this.loading = false;
-                        this.api = r;
-                    }, 500);
-
+                    this.loading = false;
+                    this.api = r;
                 });
         }
     },
