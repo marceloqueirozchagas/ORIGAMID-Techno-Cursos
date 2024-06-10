@@ -9,7 +9,7 @@ export default {
         fetchApi(url) {
             this.loading = true;
             this.api = null;
-            fetch(`http://localhost:3000${url}`)
+            fetch(`https://api.npoint.io/f967d13cfbb8c7e661d2${url}`)
                 .then(r => r.json())
                 .then(r => {
                     setTimeout(() => {
