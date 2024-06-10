@@ -3,6 +3,7 @@
     <div v-if="loading">
       <PageLoading />
     </div>
+
     <transition>
       <div v-if="api" class="conteudo">
         <div>
@@ -52,5 +53,6 @@ export default {
   margin-bottom: 40px;
   box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
   font-family: "Avenir", Helvetica, Arial, sans-serif;
+
 }
 </style>

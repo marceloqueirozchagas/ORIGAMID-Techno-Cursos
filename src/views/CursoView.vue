@@ -15,7 +15,9 @@
             </li>
           </ul>
         </div>
-        <router-view></router-view>
+        <router-view>
+
+        </router-view>
       </div>
     </transition>
   </div>
@@ -42,5 +44,6 @@ export default {
   padding: 20px;
   margin-bottom: 10px;
   border-radius: 4px;
+
 }
 </style>
